@@ -1,0 +1,14 @@
+.container .wrap .spaceWrap, .container .wrap.spaceWrap, .container .wrap:not(.noSpaces) {
+    padding: 70px calc(8% + 15px);
+}
+
+.tiny .small-link {
+  margin-bottom: -3px;
+  font-size: 14px;
+  color: grey;
+}
+
+.whiteSlide[class*=fade] .content {
+    background: none;
+    /* background: rgba(255,255,255,.85); */
+}
