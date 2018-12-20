@@ -13,7 +13,25 @@
     /* background: rgba(255,255,255,.85); */
 }
 
+/* Content Padding (gesamte Fläche, Ränder aussen) */
 .grid-73 .cell-73 {
     padding: 20px 20px;
     border: 1px solid rgba(255,255,255,.3);
+}
+
+/* Zweizeilige Icons, Zeilenabstand */
+.tags {
+    line-height: 0.8;
+}
+
+/* Zweizeilige Icons, Icongrösse */
+.material-icons.small {
+  margin-bottom: -3px;
+  margin-right: 6px;
+  font-size: 14px;
+  color: grey;
+}
+
+.wrap-img-100 {
+  background-image: url(../media/top-news.jpg);
 }
